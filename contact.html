@@ -19,12 +19,13 @@
       <form name="Contact Rabbit Guides" action="submit.html" method="post">
         <fieldset>
           <div>
-            <label>Your Name:</label>
-            <input type="text" name="contactName">
+            <label>*Your Name:</label>
+            <input type="text" name="contactName" required>
+            <!--TODO Show error messages from JavaScript validations-->
           </div>
           <div>
-            <label>Email Address:</label>
-            <input type="email" name="contactEmail">
+            <label>*Email Address:</label>
+            <input type="email" name="contactEmail" required>
           </div>
           <div>
             <label>Your Message</label>
