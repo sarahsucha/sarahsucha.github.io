@@ -22,21 +22,22 @@
       </nav>
     </header>
 
-    <div role="main">
+    <main>
       <p>This website is intended to eventually replace (and be better than) the website currently at <a href="http://www.rabbitsguides.com" target="_blank">www.rabbitsguides.com</a> with my own code (instead of using a template which I downloaded off of the internet which I don't really understand)!
-      <section class="books">
-        <article>
-          <h3>A Rabbit's Guide to Venice</h3>
-          <img src="img/homeVenice.jpg" title="Venice" alt="An illustration from the Rabbit's Guide to Venice book">
+      <section class="row">
+        <article id="venice" class="book">
+            <!-- <h3>A Rabbit's Guide to Venice</h3> -->
+            <img class="homeImage" src="img/homeVenice.jpg" title="Venice" alt="An illustration from the Rabbit's Guide to Venice book"/>
         </article>
-        <article>
-          <h3>A Rabbit's Guide to Prague</h3>
-          <img src="img/homePrague.jpg" title="Prague" alt="An illustration from the Rabbit's Guide to Prague book">
+        <article id="prague" class="book">
+          <!-- <h3>A Rabbit's Guide to Prague</h3> -->
+          <img class="homeImage" src="img/homePrague.jpg" title="Prague" alt="An illustration from the Rabbit's Guide to Prague book"/>
         </article>
-        <article>
+        <!-- <article id="marrakech" class="book">
           <h3>Coming Soon! A Rabbit's Guide to Marrakech</h3>
-        </article>
-      </section>
+        </article> -->
+        <div class="clearfix"></div>
+      </section><!--end -->
       <article>
         <h4>Comparison Site</h4>
         <a href="http://www.lonelyplanet.com/kids/books" target="_blank">Lonely Planet for Kids</a>
@@ -44,7 +45,7 @@
         <p>Technically speaking I'm curious as to why there is scripting coded directly into the html file and why the designer of the site did not utilize a separate script file. I'm also wondering why the html uses h6 headers but does not seem to have h3 or other headers before h6. Each book image is held in a div within a div. The first div seems to define the column spacing and the second div defines aspects surrounding the deatils of the book (containing the image and description).</p>
         <p>As far as elements I don't recognize, when it comes down to the actual html, it seems to be quite simple and I recognize the html elements used. I would like to learn more about the metadata that can be added to pages in the html header.</p>
       </article>
-    </div><!--End main-->
+    </main>
     <footer>
       <p>&copy; Sarah Sucha 2016</p>
     </footer>
