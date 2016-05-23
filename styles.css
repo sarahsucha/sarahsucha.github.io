@@ -1,7 +1,7 @@
 * {
-  /*font-family: sans-serif;*/
-  /*border: solid 1px red;*/
+  font-family: sans-serif;
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 header {
@@ -28,7 +28,7 @@ h1 {
   font-size: .6em;
   color: #FFF;
   position: absolute;
-  top: 55px;
+  top: 46px;
   left: 15px;
   margin-left: 15%;
 }
@@ -89,49 +89,28 @@ h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.row {
-  width: 100%;
-}
-
-.row .book {
+.book {
   width: 50%;
   float: left;
+  padding: 10px;
+  position: relative;
 }
 
-.row .book img {
-  width: 95%;
-  padding: 10px;
+.book img {
+  width: 100%;
   border-radius: 20px;
+}
+
+.book h3 {
+  color: #FFF;
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
 }
 
 .clearfix {
   clear: both;
 }
-
-/*.book img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 15px;
-  float: left;
-  float: left;
-}*/
-
-/*article .book {
-  max-width: 50%;
-  display: inline;
-  float: left;*/
-  /*display: inline-block;
-  vertical-align: top;*/
-  /*margin: 10px;*/
-}
-
-/*.homeImage {
-  max-width: 50%;
-  float:left;
-  margin: 10px;*/
-}
-
-
 
 img {
   border-radius: 15px;
@@ -167,7 +146,7 @@ footer p {
 }
 
 @media screen and (max-width: 700px) {
-  .row .book {
+  .book {
     width: 100%;
   }
 }
