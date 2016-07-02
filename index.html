@@ -24,13 +24,24 @@
 
     <main>
       <p>This website is intended to eventually replace (and be better than) the website currently at <a href="http://www.rabbitsguides.com" target="_blank">www.rabbitsguides.com</a> with my own code (instead of using a template which I downloaded off of the internet which I don't really understand)!
-      <section>
-        <article class="book">
+      <section id="books">
+        <div id="bookFilters">
+          <span>Filter by:</span>
+          <button id="publishedFilter">Published Books</button>
+          <button id="EuropeFilter">Europe</button>
+          <button id="AfricaFilter">Africa</button>
+          <button id="removeFilters">Remove Filters</button>
+        </div>
+        <article class="book published Europe">
             <h3>A Rabbit's Guide to Venice</h3>
             <img class="homeImage" src="img/homeVenice.jpg" title="Venice" alt="An illustration from the Rabbit's Guide to Venice book"/>
         </article>
-        <article class="book">
+        <article class="book unpublished Europe">
           <h3>A Rabbit's Guide to Prague</h3>
+          <img class="homeImage" src="img/homePrague.jpg" title="Prague" alt="An illustration from the Rabbit's Guide to Prague book"/>
+        </article>
+        <article class="book published Africa">
+          <h3>A Rabbit's Guide to Marrakech</h3>
           <img class="homeImage" src="img/homePrague.jpg" title="Prague" alt="An illustration from the Rabbit's Guide to Prague book"/>
         </article>
         <!-- <article class="book">
@@ -49,6 +60,7 @@
     <footer>
       <p>&copy; Sarah Sucha 2016</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

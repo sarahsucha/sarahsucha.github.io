@@ -89,6 +89,32 @@ h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
+#bookFilters button {
+  display: inline;
+  padding: 10px;
+  border-style: none;
+  background-color: pink;
+}
+
+#bookFilters button:hover {
+  display: inline;
+  padding: 10px;
+  border-style: none;
+  background-color: lightgreen;
+}
+
+#bookFilters button:focus {
+  display: inline;
+  padding: 10px;
+  border-style: none;
+  outline: 0;
+  background-color: lightgreen;
+}
+
+.inactive {
+  display: none;
+}
+
 .book {
   width: 50%;
   float: left;
